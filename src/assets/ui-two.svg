@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 375 812">
+  <!-- Generator: Adobe Illustrator 29.1.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 142)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: none;
+      }
+
+      .st1 {
+        fill: url(#linear-gradient2);
+      }
+
+      .st2 {
+        fill: url(#linear-gradient1);
+      }
+
+      .st3 {
+        fill: url(#linear-gradient9);
+      }
+
+      .st4 {
+        fill: url(#linear-gradient3);
+      }
+
+      .st5 {
+        fill: url(#linear-gradient6);
+      }
+
+      .st6 {
+        fill: url(#linear-gradient8);
+      }
+
+      .st7 {
+        fill: url(#linear-gradient7);
+      }
+
+      .st8 {
+        fill: url(#linear-gradient5);
+      }
+
+      .st9 {
+        fill: url(#linear-gradient4);
+      }
+
+      .st10 {
+        fill: #47c6a2;
+      }
+
+      .st11 {
+        fill-opacity: .6;
+      }
+
+      .st11, .st12 {
+        fill: #2d2d2d;
+      }
+
+      .st13 {
+        fill: #282729;
+      }
+
+      .st14 {
+        fill: #b8a9c6;
+      }
+
+      .st15 {
+        fill: url(#linear-gradient);
+      }
+
+      .st16 {
+        fill: #ffecbb;
+      }
+
+      .st17 {
+        fill: #b2d0ce;
+      }
+
+      .st18 {
+        fill: #fff;
+      }
+
+      .st19 {
+        fill: #1e1f1f;
+      }
+
+      .st20 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="st0" width="375" height="812"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="40" y1="350" x2="40" y2="310" gradientTransform="translate(0 814) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#b2d0ce"/>
+      <stop offset="1" stop-color="#8ab4b1"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient1" x1="317" y1="314" x2="268" y2="314" gradientTransform="translate(0 814) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#252626"/>
+      <stop offset="1" stop-color="#252626" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient2" x1="40" y1="78" x2="40" y2="38" gradientTransform="translate(0 814) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fcffdf"/>
+      <stop offset="1" stop-color="#f1fe87"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient3" x1="317" y1="42" x2="268" y2="42" gradientTransform="translate(0 814) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#252626"/>
+      <stop offset="1" stop-color="#252626" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient4" x1="40" y1="214" x2="40" y2="174" gradientTransform="translate(0 814) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e7b263"/>
+      <stop offset="1" stop-color="#e8c898"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient5" x1="317" y1="178" x2="268" y2="178" gradientTransform="translate(0 814) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#252626"/>
+      <stop offset="1" stop-color="#252626" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient6" x1="317" y1="110" x2="268" y2="110" gradientTransform="translate(0 814) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#252626"/>
+      <stop offset="1" stop-color="#252626" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient7" x1="40" y1="282" x2="40" y2="242" gradientTransform="translate(0 814) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ea9ca1"/>
+      <stop offset="1" stop-color="#ca7f8d"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient8" x1="317" y1="246" x2="268" y2="246" gradientTransform="translate(0 814) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#252626"/>
+      <stop offset="1" stop-color="#252626" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient9" x1="40" y1="10" x2="40" y2="-30" gradientTransform="translate(0 814) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ea9ca1"/>
+      <stop offset="1" stop-color="#ca7f8d"/>
+    </linearGradient>
+  </defs>
+  <g class="st20">
+    <rect class="st19" width="375" height="812"/>
+    <circle class="st12" cx="349" cy="-52" r="154"/>
+    <path class="st13" d="M0,786c0,14.4,11.6,26,26,26h323c14.4,0,26-11.6,26-26v-366c0-19.9-16.1-36-36-36H36c-19.9,0-36,16.1-36,36v366Z"/>
+    <circle class="st11" cx="-10.9" cy="615.5" r="186"/>
+    <circle class="st15" cx="40" cy="484" r="20"/>
+    <rect class="st0" x="18" y="467" width="44" height="38"/>
+    <circle class="st16" cx="40" cy="484" r="20"/>
+    <rect class="st2" x="268" y="482" width="107" height="36"/>
+    <circle class="st1" cx="40" cy="756" r="20"/>
+    <rect class="st0" x="18" y="739" width="44" height="38"/>
+    <circle class="st16" cx="40" cy="756" r="20"/>
+    <rect class="st4" x="268" y="754" width="107" height="36"/>
+    <path class="st0" d="M117,616.7h16v-16h-16v16Z"/>
+    <circle class="st9" cx="40" cy="620" r="20"/>
+    <rect class="st0" x="23" y="603" width="33" height="41"/>
+    <circle class="st16" cx="40" cy="620" r="20"/>
+    <rect class="st8" x="268" y="618" width="107" height="36"/>
+    <path class="st0" d="M156.2,684.7h16v-16h-16v16Z"/>
+    <circle class="st14" cx="40" cy="688" r="20"/>
+    <rect class="st0" x="20" y="672" width="40" height="38"/>
+    <circle class="st16" cx="40" cy="688" r="20"/>
+    <rect class="st5" x="268" y="686" width="107" height="36"/>
+    <circle class="st7" cx="40" cy="552" r="20"/>
+    <rect class="st0" x="21.5" y="534.5" width="37.5" height="43.8"/>
+    <circle class="st16" cx="40" cy="552" r="20"/>
+    <rect class="st6" x="268" y="550" width="107" height="36"/>
+    <circle class="st3" cx="40" cy="824" r="20"/>
+    <rect class="st0" x="21.5" y="806.5" width="37.5" height="43.8"/>
+    <circle class="st16" cx="40" cy="824" r="20"/>
+    <path class="st13" d="M20,330c0,16.6,13.4,30,30,30h275c16.6,0,30-13.4,30-30v-92c0-16.6-13.4-30-30-30H50c-16.6,0-30,13.4-30,30v92Z"/>
+    <circle class="st10" cx="150" cy="286" r="20"/>
+    <rect class="st0" x="128" y="269" width="44" height="38"/>
+    <circle class="st17" cx="150" cy="286" r="20"/>
+    <circle class="st19" cx="291" cy="286" r="20"/>
+    <rect class="st18" x="290.3" y="282" width="1.3" height="8" rx=".7" ry=".7"/>
+    <rect class="st18" x="287" y="285.3" width="8" height="1.3" rx=".7" ry=".7"/>
+    <path class="st0" d="M233.7,324.6h14v-14h-14v14Z"/>
+    <circle class="st10" cx="223" cy="286" r="20"/>
+    <rect class="st0" x="206" y="269" width="33" height="41"/>
+    <circle class="st17" cx="223" cy="286" r="20"/>
+    <circle class="st10" cx="81" cy="286" r="20"/>
+    <rect class="st0" x="62.5" y="268.5" width="37.5" height="43.8"/>
+    <circle class="st17" cx="81" cy="286" r="20"/>
+  </g>
+</svg>
