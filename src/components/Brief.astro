@@ -1,0 +1,182 @@
+---
+import VectorOne from '../assets/ui-one.svg'
+import VectorTwo from '../assets/ui-two.svg'
+import VectorThree from '../assets/ui-three.svg'
+
+import Check from '../assets/icons/check.svg'
+import Bolt from '../assets/icons/bolt.svg'
+import Money from '../assets/icons/money.svg'
+import Wallet from '../assets/icons/wallet.svg'
+import Secure from '../assets/icons/lock.svg'
+
+---
+
+
+<section class="product-brief" id="features">
+    <div class="container">
+
+
+        <!-- Feature Two -->
+        <div class="row product-brief-items">
+            <div class="brief-media center one-half column">
+                <img src={VectorTwo.src} class="md-width">
+            </div>
+
+            <div class="brief-tab one-half column">
+                <h3 class="h2-title">For Developers.</h3>
+                <p class="m-paragraph m-margin">lightweight, developer-friendly SMTP solution that integrates seamlessly into your stack.</p>
+
+                <div class="brief-items">
+                 <div class="row m-margin">
+                    <div class="one-half column feature-grid">
+                        <img src={Bolt.src} alt="Fast connect">
+                        <p class="s-paragraph">Built-in support for popular frameworks.</p>
+                    </div>
+                    <div class="one-half column feature-grid">
+                        <img src={Money.src} alt="Money transfer">
+                        <p class="s-paragraph">Sandbox mode for testing without sending live emails.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="one-half column feature-grid">
+                        <img src={Wallet.src} alt="Digital wallet">
+                        <p class="s-paragraph">Detailed logs and real-time delivery status.</p>
+                    </div>
+                    <div class="one-half column feature-grid">
+                        <img src={Secure.src} alt="Secure connection">
+                        <p class="s-paragraph">Scalable from side project to production.</p>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div>
+   
+        <!-- Feature One -->
+        <div class="row product-brief-items">
+            <div class="brief-tab one-half column">
+                <h3 class="h2-title">For SaaS Platforms.</h3>
+                <p class="m-paragraph m-margin">Ensure your app's emails land where they should — fast, secure, and trackable.</p>
+
+
+               <div class="brief-items">
+                 <div class="row m-margin">
+                    <div class="one-half column feature-grid">
+                        <img src={Bolt.src} alt="Fast connect">
+                        <p class="s-paragraph">High deliverability for transactional & system emails.</p>
+                    </div>
+                    <div class="one-half column feature-grid">
+                        <img src={Money.src} alt="Money transfer">
+                        <p class="s-paragraph">SPF, DKIM & DMARC authentication out of the box.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="one-half column feature-grid">
+                        <img src={Wallet.src} alt="Digital wallet">
+                        <p class="s-paragraph">Uptime and performance monitoring dashboard.</p>
+                    </div>
+                    <div class="one-half column feature-grid">
+                        <img src={Secure.src} alt="Secure connection">
+                        <p class="s-paragraph">Webhooks for real-time user interaction tracking.</p>
+                    </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="brief-media center one-half column">
+                <img src={VectorOne.src} class="md-width">
+            </div>
+        </div>
+
+
+
+     <!-- Feature One -->
+      <div class="row product-brief-items">
+
+        <div class="brief-media center one-half column">
+            <img src={VectorThree.src} class="md-width">
+        </div>
+        
+         <div class="brief-tab one-half column">
+            <h3 class="h2-title">For High-Volume Senders.</h3>
+            <p class="m-paragraph m-margin">Built to handle millions of emails without breaking a sweat — performance, reliability, and control at scale.</p>
+
+
+            <div class="brief-items">
+                <div class="row m-margin">
+                <div class="one-half column feature-grid">
+                    <img src={Bolt.src} alt="Fast connect">
+                    <p class="s-paragraph">Optimised SMTP infrastructure for bulk email delivery.</p>
+                </div>
+                <div class="one-half column feature-grid">
+                    <img src={Money.src} alt="Money transfer">
+                    <p class="s-paragraph">Adaptive throttling to meet ISP requirements.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="one-half column feature-grid">
+                    <img src={Wallet.src} alt="Digital wallet">
+                    <p class="s-paragraph">Dedicated IPs and warm-up assistance.</p>
+                </div>
+                <div class="one-half column feature-grid">
+                    <img src={Secure.src} alt="Secure connection">
+                    <p class="s-paragraph">Enterprise-grade SLAs and 24/7 support.</p>
+                </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+ </section>
+
+
+ <style lang="scss">
+.product-brief{
+  background-color: var(--tenary);
+  .hero-brand{
+    padding-bottom: 50px;
+    .brands{
+      margin-top: 15px;
+    }
+  }
+  .product-brief-items{
+    margin-bottom: 100px;
+    .brief-tab{
+      padding-top: 50px;
+    }
+  }
+
+  .feature-grid{
+    display: flex;
+    p{
+      margin: 0 0 0 10px;
+    }
+    img{
+      width: 25px;
+      margin-top: -10px;
+    }
+  }
+
+  .brief-media{
+    height: 340px;
+    position: relative;
+    overflow: hidden;
+    background-color: #ffe1a5;
+    padding-top: 40px;
+    border-radius: 20px;
+    box-shadow:5px 6px 0 2px #8c7953;
+
+    img{
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+  }
+
+  @media (max-width:700px) {
+    .brief-tab{
+        margin-left: 20px;
+    }
+  }
+}
+ </style>

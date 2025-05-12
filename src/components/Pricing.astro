@@ -1,0 +1,109 @@
+---
+
+---
+
+
+<section class="pricing-table" id="pricing">
+    <div class="container">
+        <div class="center text-container">
+            <h3 class="subtitle">Choose the right plan</h3>
+            <p>Our pricing is crafted to scale with you — giving your business the reliability, support, and deliverability you need, without overpaying for what you don’t need.</p>
+        </div>
+
+        <div class="row">
+            <div class="one-third column price-item">
+                <div class="price-header m-margin">
+                    <h5 class="l-subtitle">Starter</h5>
+                    <h3 class="h2-title">$99.00<span class="s-paragraph"> / month</span></h3>
+                    <a href="#" class="button u-full-width">start trial</a>
+                </div>
+
+                <div class="price-list">
+                      <p>Up to 50,000 emails</p>
+                      <p>Shared IP pool</p>
+                      <p>SMTP & API access</p>
+                      <p>Basic email analytics (opens, bounces)</p>
+                      <p>SPF/DKIM configuration help</p>
+                      <p>7-day log retention</p>
+                      <p>Email-only support</p>
+                </div>
+            </div>
+            <div class="one-third column price-item" id="best-selling">
+                <div class="price-header m-margin">
+                    <h5 class="l-subtitle">Growth</h5>
+                    <h3 class="h2-title">$199.00<span class="s-paragraph"> / month</span></h3>
+                    <a href="#" class="button button-primary u-full-width">start trial</a>
+                </div>
+
+                <div class="price-list">
+                    <p>Up to 500,000 emails</p>
+                    <p>High-performance shared IPs</p>
+                    <p>Advanced analytics</p>
+                    <p>Webhooks and event tracking</p>
+                    <p>30-day log retention</p>
+                    <p>Premium support (email + chat)</p>
+                    <p>Dedicated onboarding specialist</p>
+                </div>
+            </div>
+            <div class="one-third column price-item">
+                <div class="price-header m-margin">
+                    <h5 class="l-subtitle">Scale</h5>
+                    <h3 class="h2-title">$499.00<span class="s-paragraph"> / month</span></h3>
+                    <a href="#" class="button u-full-width">start trial</a>
+                </div>
+
+                <div class="price-list">
+                    <p>2M+ emails/month</p>
+                    <p>Dedicated IPs with automated warm-up</p>
+                    <p>Inbox placement monitoring & reputation tools</p>
+                    <p>Priority queueing and smart rate-limiting</p>
+                    <p>90-day log retention</p>
+                    <p>24/7 priority support (chat, email, phone)</p>
+                    <p>SLA-backed deliverability & uptime guarantees</p>
+                </div>
+            </div>
+        </div>
+    </div>
+ </section>
+
+
+ <style lang="scss">
+  #best-selling{
+      border-color: var(--accent);
+    }
+.pricing-table{
+   background-color: #fff;
+  .price-item{
+    border: 1px solid #dde2e5;
+    padding: 30px;
+    margin-top: 20px;
+    border-radius: 20px;
+    
+    .price-header{
+      h3 .s-paragraph{
+        color: var(--accent)
+      }
+    }
+    .price-list{
+      p{
+        margin: 10px 0;
+        position: relative;
+        padding-left: 20px;
+        &::before{
+          position: absolute;
+          content: '';
+          left: 0; top: 5px;
+          display: inline-block;
+          transform: rotate(45deg);
+          height: 8px;
+          width: 5px;
+          border-bottom: 2px solid #9ba5b9;
+          border-right: 2px solid #9ba5b9;
+          z-index: 5;
+        }
+      }
+    }
+    
+  }
+}
+ </style>

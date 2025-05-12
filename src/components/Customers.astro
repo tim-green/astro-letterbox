@@ -1,0 +1,142 @@
+---
+import Stars from '../assets/stars.svg'
+---
+
+<section class="product-reviews" id="customers">
+    <div class="container">
+        <div class="center">
+            <div class="text-container">
+                <h3 class="subtitle">Built for scale. Trusted at every stage.</h3>
+                <p> Whether you’re sending thousands or millions, top-performing companies rely on Letterbox for consistent, high-impact email delivery.</p>
+            </div>
+
+            <div class="customer-reviews m-margin">
+                <div class="flex center">
+                    <img src={Stars.src}>
+                    <span class="s-paragraph">Trusted by 87,000+ users worldwide</span>
+                </div>
+                <small><strong>1 millon</strong> customers and counting</small>
+            </div>
+            <div class="center">
+                <a href="#" class="button button-primary">Start Trial — It's Free</a>
+                <small class="block">No credit card required.</small>
+            </div>
+        </div>
+        <!-- https://uifaces.co/#browse-avatars -->
+        <div class="customer-avatars">
+           <div class="left-side-avatars">
+              <div class="circular-image">
+                <img src="https://mighty.tools/mockmind-api/content/human/80.jpg">
+               </div>
+               <div class="circular-image">
+                 <img src="https://mighty.tools/mockmind-api/content/human/125.jpg">
+               </div>
+               <div class="circular-image">
+                 <img src="https://mighty.tools/mockmind-api/content/human/112.jpg">
+               </div>
+               <div class="circular-image">
+                   <img src="https://mighty.tools/mockmind-api/content/human/129.jpg">
+               </div>
+           </div>
+           <div class="right-side-avatars">
+            <div class="circular-image">
+              <img src="https://mighty.tools/mockmind-api/content/human/71.jpg">
+             </div>
+             <div class="circular-image">
+               <img src="https://mighty.tools/mockmind-api/content/human/67.jpg">
+             </div>
+             <div class="circular-image">
+               <img src="https://mighty.tools/mockmind-api/content/human/117.jpg">
+             </div>
+             <div class="circular-image">
+                 <img src="https://mighty.tools/mockmind-api/content/human/115.jpg">
+             </div>
+          </div>
+        </div>
+    </div>
+ </section>
+
+
+ <style lang="scss">
+
+  .product-reviews{
+    padding: 80px 0;
+    background-color: #fff;
+    .customer-reviews{
+      img{
+        width: 80px;
+      }
+      span{
+         margin-left: 10px;
+      }
+    }
+    .text-container{
+      max-width: 400px;
+      margin: 10px auto;
+    }
+    p, h3{
+      margin: 10px 0;
+    }
+    .container{
+      padding: 70px 0;
+      position: relative;
+      
+    }
+    .customer-avatars{
+      .circular-image {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        overflow: hidden;
+        display: inline-block;
+        vertical-align: middle;
+        img{
+          width: 100%;
+        }
+      }
+
+      .circular-image{
+        position: absolute;
+        transition: ease-in-out filter 400ms;
+        &:hover{
+          filter: grayscale(1);
+        }
+      }
+      .left-side-avatars .circular-image{
+        &:nth-child(1){
+          top: 0; left: 20%;
+        }
+        &:nth-child(2){
+          top: 14%; left: 5%;
+        }
+        &:nth-child(3){
+          bottom: 14%; left: 5%;
+        }
+        &:nth-child(4){
+          bottom: 0%; left: 20%;
+        }
+      }
+      .right-side-avatars .circular-image{
+        &:nth-child(1){
+          top: 0; right: 20%;
+        }
+        &:nth-child(2){
+          top: 14%; right: 5%;
+        }
+        &:nth-child(3){
+          bottom: 14%; right: 5%;
+        }
+        &:nth-child(4){
+          bottom: 0%; right: 20%;
+        }
+      }
+     
+    }
+
+    @media (max-width:700px) {
+      .circular-image img{
+        display: none;
+      }
+    }
+  }
+ </style>
