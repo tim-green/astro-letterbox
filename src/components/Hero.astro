@@ -35,6 +35,10 @@ import Computer from '../assets/computer-front-color.png'
 
 .product-hero{
   padding: 50px 0;
+  @media (max-width:700px) {
+    padding: 25px 0;
+  }
+
   .container{
     position: relative;
     .d-table{
@@ -44,6 +48,11 @@ import Computer from '../assets/computer-front-color.png'
   .hero-media{
     padding: 5px;
     border-radius: 48px;
+     @media (max-width:700px) {
+    img{
+      display: none;
+    }
+  }
   }
   .hero-copy{
     h1, p{

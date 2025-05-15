@@ -47,13 +47,22 @@ import Logo from '../assets/logo.svg'
       width: 22rem;
       margin-top: 5px;
     }
+
+     @media (max-width:885px) {
+      .button{
+        padding: 0 20px;
+      }
+     }
     @media (max-width:700px) {
-      nav{
-        display: none;
+    .nav-logo{
+          text-align: center;
       }
       .nav-cta{
         position: absolute;
         right: 20px;
+        .button{
+          display: none
+        }
       }
     }
   } 
